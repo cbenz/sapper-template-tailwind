@@ -1,9 +1,17 @@
-# sapper-template
+# sapper-template with Tailwind CSS
 
-The default [Sapper](https://github.com/sveltejs/sapper) template. To clone it and get started:
+This is an extension of the default [Sapper](https://github.com/sveltejs/sapper) template adding [Tailwind CSS](https://tailwindcss.com/).
+
+Note that all the styles were removed (I didn't try to reproduce sapper-template look). The aim of this template is just to configure Tailwind CSS.
+
+Contrary to [this implementation](https://github.com/PaulMaly/svelte-tailwind), here a `server.css` static file is built by webpack and sourced by `template.html`.
+
+The first commit of this repo is identical to sapper-template, and the next commit show what changed to add Tailwind CSS.
+
+To clone it and get started:
 
 ```bash
-npx degit sveltejs/sapper-template my-app
+npx degit cbenz/sapper-template-tailwind my-app
 cd my-app
 npm install # or yarn!
 npm run dev
